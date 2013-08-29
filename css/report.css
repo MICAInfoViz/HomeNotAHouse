@@ -5,6 +5,11 @@ Everyting here should be contained within the .content div
 which is defiend in style.css
 */
 
+#headerText a {
+	color: #FFD300;
+	font-size: 1.6em;
+}
+
 
 .tabscontentOrig {
 height: 500px;
@@ -70,7 +75,7 @@ overflow:scroll;
 
 /***************/
 /* these are temporary to show placements */
-#tabscontent h2,h3 {
+#tabscontent h2, #tabscontent h3 {
 margin: 0 auto;
 text-align:center;
 border:dashed white thin;
