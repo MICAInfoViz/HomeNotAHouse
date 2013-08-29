@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="jquery-ui.css" rel="stylesheet" />
+<link href="mainstyles.css" rel="stylesheet" />
+<title>Home Not A House</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  	<script src="slider.js" language="javascript"></script>
+</head>
+
+<body>
+
+<div id="contentwrapper">
+	<div id="content">
+		<h2>Let's find your new neighborhood.</h2><br />
+
+<!--Form Beginning-->
+		<div id="formwrapper">
+			<div class="form">
+				<form action="#" method="get">
+ 
+				<p>
+  					<label for="amount">Price range:</label><br />
+  					<input type="text" id="amount" name="Value" />
+				</p>
+
+				<div id="price-range" class="price"></div>
+ 
+				<br><br>
+
+				<p>
+					<label for="crime">Crime Comfort Level:</label><br />
+					<input type="text" size="60" id="crime" />
+				</p>
+				
+                <div id="crime-range" class="crimerate"></div>
+
+				<br><br>
+
+					<button type="button" id="pricebutton">Submit</button>
+
+			 </form>
+ 			</div>
+  		</div>
+<!--Form End-->
+	</div>
+</div>
+</body>
+</html>

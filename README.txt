@@ -1,0 +1,1 @@
+This week we will be working to separate the HTML, JavaScript and JSON code into three files.
